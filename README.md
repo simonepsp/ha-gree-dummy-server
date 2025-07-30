@@ -5,6 +5,8 @@ This is based on @joserebelo’s work but has been repackaged as a Home Assistan
 
 <https://codeberg.org/joserebelo/gree-dummy-tls-server>
 
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/simonepsp/ha-gree-dummy-server/)
+
 # Requirements (copy-pasted from joserebelo's repo)
 
 You need to setup a DNS rewrite for all *.gree.com DNS queries in your network, pointing to this server.
