@@ -1,7 +1,6 @@
 # Gree Dummy TLS Server [HA ADDON]
 
-A dummy server that will prevent Gree AC units from phoning home. 
-
+A dummy server that will allow you to use your Gree AC units with them phoning home. Pleae follow the instructions below.
 This is based on @joserebelo’s work but has been repackaged as a Home Assistant add-on, so you don’t need to run a separate instance or server.
 
 <https://codeberg.org/joserebelo/gree-dummy-tls-server>
