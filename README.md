@@ -14,3 +14,9 @@ You need to setup a DNS rewrite for all *.gree.com DNS queries in your network, 
 While this should not be needed, without it the devices will sometimes get stuck in a dns query loop to some *.gree.com dns entries that do not exist, especially if the connection to this server is lost. It's unclear what triggers this, since this behavior is not reproducible with the official app, which points to some potential bug in this server's implementation.
 
 You can then use any of the aforementioned *.gree.com hostname when pairing your device to the wifi network, or your own DNS entry that points to the server.
+
+
+# Ubiquiti example
+On the Unifi network interface you can easily create a DNS entry *.gree.com pointing at your HA instance (192.168.1.4 in my case). You won't need to set the DOMAIN_NAME in the addon config.
+After that, check if the Gree Wifi devices are correctly communicating with your dummy server, by opening addon's Log page
+<img width="1766" height="544" alt="CleanShot 2025-07-30 at 14 38 51@2x" src="https://github.com/user-attachments/assets/4ce1b5a3-b869-4744-9074-66a58d80b208" />
