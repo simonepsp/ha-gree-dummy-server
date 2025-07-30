@@ -1,0 +1,19 @@
+name: Gree Dummy TLS Server
+version: "1.0.0"
+slug: gree_dummy_tls
+description: Dummy TLS server for Gree AC devices
+arch:
+  - aarch64
+  - amd64
+startup: services
+boot: auto
+host_network: true
+ports:
+  1813/tcp: 1813
+  5000/tcp: 5000
+options:
+  DOMAIN_NAME: "ac.gree.com"
+  EXTERNAL_IP: "192.168.1.50"
+schema:
+  DOMAIN_NAME: str
+  EXTERNAL_IP: str
